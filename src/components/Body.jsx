@@ -10,25 +10,45 @@ function Body() {
     const circleRef = useRef(null);
 
     useEffect(() => {
-      gsap.to("#thirdCircle", {
-        x: 100,
-        duration: 10,
+      gsap.to("#first", {
+        opacity :1,
+        duration: 1,
         scrollTrigger: {
-          trigger: "#thirdCircle",
+          trigger: "#first",
           markers: true,
-          start: "top center",
+          start: "top 30%",
           end: "bottom 80px",
+          pin: true,
           scrub: true
         }
       });
     }, []);
+
+    useEffect(() => {
+      gsap.to("#second", {
+        opacity :1,
+        duration: 1,
+        scrollTrigger: {
+          trigger: "#second",
+          markers: true,
+          start: "top 30%",
+          end: "bottom 80px",
+          pin: true,
+          scrub: true
+        }
+      });
+    }, []);
+    
   
     return (
       <div className="App">
-        <div id="firstCircle"></div>
-        <div id="secondCircle"></div>
-        <div ref={circleRef} id="thirdCircle"></div>
-      </div>
+        <div id="maintext"><h1 ><span>&lt;</span>tanmaythakral<span>&gt;</span></h1><p id ="secondarytext">Creative Data Science, Artificial Intelligence <br/> and Frontend development enthusiast</p></div>
+
+        <div ref={circleRef} class="infos" id = "first"><h1>Personal Porfolio</h1><br/><span>&lt;</span><span>Personal Projects Showcase</span><span>&gt;</span></div>
+        <div ref={circleRef} class="infos" id = "second"><h1>Hello</h1></div>
+
+        </div>
+        
     );
   }
   

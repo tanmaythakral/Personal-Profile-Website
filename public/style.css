@@ -1,38 +1,118 @@
-body {
-    background-color: white;
-    margin: 8%;
-    padding: 0;
-  }
-  
-  #firstCircle {
-    background-color: yellow;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    border: 2px solid blue;
-    margin-bottom: 1%;
-  }
-  
-  p {
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  #secondCircle {
-    background-color: blue;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    border: 2px solid yellow;
-    margin-bottom: 10%;
-  }
-  
-  #thirdCircle {
-    background-color: black;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    border: 2px solid yellow;
-    margin-bottom: 80%;
-  }
-  
+#firstCircle {
+  background-color: yellow;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 2px solid blue;
+  margin-bottom: 1%;
+}
+
+body{background-color:#252a34;}
+
+.title {
+  color:#fc659e;
+  font-size:70px;
+  line-height:98px;
+  font-family: 'Libre Baskerville', serif;
+  padding-top:60px; padding-bottom:40px;
+  width:90%; background-color:transparent;
+  margin:40px auto; overflow:hidden;
+  box-sizing: border-box;
+  font-kerning: none;
+}
+
+#maintext {
+  font-size:70px;
+  font-family: 'Libre Baskerville', serif;
+  color: #ff2e63;
+  margin-top: 20%;
+  height: 100px;
+  margin-bottom: 10%;
+}
+
+.infos {
+  font-family: 'Libre Baskerville', serif;
+  margin-top: 35%;
+  height: 100px;
+  margin-bottom: 60%;
+  opacity: 0;
+}
+
+@media (min-width: 100px) {
+  #maintext { padding-left: 10%; }
+  #maintext span{color: #708090; overflow:hidden; font-size: 35px;}
+  #maintext h1{color: #ff2e63; overflow:hidden; font-size: 35px;}
+
+  #secondarytext {font-size: 15px;}
+  .infos { padding-left: 10%; }
+  .infos span{color: #708090; overflow:hidden; font-size: 20px;}
+  .infos h1{color: #ff2e63; overflow:hidden; font-size: 35px;}
+}
+@media (min-width: 768px) {
+  #maintext { padding-left: 20%; }
+  #maintext span{color: ##708090; overflow:hidden; font-size: 40px;}
+  #maintext h1{color: #ff2e63; overflow:hidden; font-size: 40px;}
+
+  #secondarytext {font-size: 15px;}
+  .infos { padding-left: 20%; }
+  .infos span{color: #708090; overflow:hidden; font-size: 25px;}
+  .infos h1{color: #ff2e63; overflow:hidden; font-size: 40px;}
+}
+@media (min-width: 992px) {
+  #maintext { padding-left: 20%; }
+  #maintext span{color: #708090; overflow:hidden; font-size: 70px;}
+  #maintext h1{color: #ff2e63; overflow:hidden; font-size: 70px;}
+
+  #secondarytext {font-size: 25px;}
+  .infos { padding-left: 20%; }
+  .infos span{color: #708090; overflow:hidden; font-size: 30px;}
+  .infos h1{color: #ff2e63; overflow:hidden; font-size: 70px;}
+}
+@media (min-width: 1200px) {
+  #maintext { padding-left: 20%; }
+  #maintext span{color: #708090; overflow:hidden; font-size: 70px;}
+  #maintext h1{color: #ff2e63; overflow:hidden; font-size: 70px;}
+
+  #secondarytext {font-size: 25px;}
+  .infos { padding-left: 20%; }
+  .infos span{color: #708090; overflow:hidden; font-size: 30px;}
+  .infos h1{color: #ff2e63; overflow:hidden; font-size: 70px;}
+
+}
+ 
+#secondarytext {font-family: 'Libre Baskerville', serif; color: #eaeaea; text-align:left; font-weight: lighter;}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+.navbar {
+	font-family: 'Montserrat', sans-serif;
+  background:#252a34;
+	border: none;
+}
+
+.container-fluid {
+	background-color: #252a34;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #252a34;
+		color:#252a34;
+}
+
+.navbar-toggle {
+	border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
