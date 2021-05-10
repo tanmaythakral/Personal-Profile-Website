@@ -5,7 +5,7 @@ function Footer() {
     var currentDate = date.getFullYear();
 
     return <p>
-        Copyright &copy;  {currentDate}
+        <span class= "footer">Copyright &copy;  {currentDate}</span>
     </p>
 }
 
