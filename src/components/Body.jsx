@@ -133,7 +133,7 @@ function Body() {
         y:20,
         scrollTrigger: {
           trigger: "#dog_animation",
-          markers: true,
+          // markers: true,
           start: "top 30%",
           end: "bottom 70%",
           scrub : true
@@ -146,7 +146,7 @@ function Body() {
         duration: 10000,
         scrollTrigger: {
           trigger: "#amongus_animation",
-          markers: true,
+          // markers: true,
           start: "top 30%",
           end: "bottom 70%",
           scrub : true,
