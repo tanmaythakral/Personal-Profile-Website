@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Personal-Profile-Website/static/js/main.8f8b14ea.chunk.js",
+    "main.js.map": "/Personal-Profile-Website/static/js/main.8f8b14ea.chunk.js.map",
+    "runtime-main.js": "/Personal-Profile-Website/static/js/runtime-main.e1dc1897.js",
+    "runtime-main.js.map": "/Personal-Profile-Website/static/js/runtime-main.e1dc1897.js.map",
+    "static/js/2.53781c10.chunk.js": "/Personal-Profile-Website/static/js/2.53781c10.chunk.js",
+    "static/js/2.53781c10.chunk.js.map": "/Personal-Profile-Website/static/js/2.53781c10.chunk.js.map",
+    "index.html": "/Personal-Profile-Website/index.html",
+    "static/js/2.53781c10.chunk.js.LICENSE.txt": "/Personal-Profile-Website/static/js/2.53781c10.chunk.js.LICENSE.txt",
+    "static/media/astronaut.72f36f1b.png": "/Personal-Profile-Website/static/media/astronaut.72f36f1b.png",
+    "static/media/planet.29763e18.png": "/Personal-Profile-Website/static/media/planet.29763e18.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1dc1897.js",
+    "static/js/2.53781c10.chunk.js",
+    "static/js/main.8f8b14ea.chunk.js"
+  ]
+}
