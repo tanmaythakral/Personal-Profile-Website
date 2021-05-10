@@ -57,6 +57,74 @@ body{background-color:#252a34;}
 				-webkit-transform: rotate(359deg);
 		}
 }
+
+#astronaut {
+  width : 35%;
+  position: absolute;
+  margin-left: 60%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+#entirescene {
+  margin-top: 35%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#meteor {
+  margin-top: 35%;
+  position: absolute;
+  opacity: 0;
+  height: 62%;
+  margin-left: 46.2%;
+}
+
+#dog_animation {
+  margin-top: 25%;
+  position: absolute;
+  width: 50%;
+}
+
+#amongus_animation {
+  margin-top: 25%;
+  position: absolute;
+  width: 50%;
+}
+
+
+#starfish_animation {
+  margin-top: 40%;
+  margin-left: 46%;
+  position: absolute;
+  width: 25%;
+}
+
+#git_animation {
+  margin-top: 15%;
+  margin-left: -10%;
+  position: absolute;
+  width: 30%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 @media (min-width: 100px) {
   #maintext { padding-left: 10%; }
   #maintext span{color: #708090; overflow:hidden; font-size: 35px;}
@@ -66,6 +134,9 @@ body{background-color:#252a34;}
   .infos { padding-left: 10%; }
   .infos span{color: #708090; overflow:hidden; font-size: 20px;}
   .infos h1{color: #ff2e63; overflow:hidden; font-size: 35px;}
+
+  #astronaut {  margin-top: 50%;}
+  #entirescene {  opacity: 0;}
 }
 @media (min-width: 768px) {
   #maintext { padding-left: 20%; }
@@ -76,17 +147,24 @@ body{background-color:#252a34;}
   .infos { padding-left: 20%; }
   .infos span{color: #708090; overflow:hidden; font-size: 25px;}
   .infos h1{color: #ff2e63; overflow:hidden; font-size: 40px;}
+
+  #astronaut {  margin-top: 40%;}
+  #entirescene {  opacity: 0;}
 }
 
 @media (min-width: 992px) {
   #maintext { padding-left: 20%; }
-  #maintext span{color: #708090; overflow:hidden; font-size: 70px;}
-  #maintext h1{color: #ff2e63; overflow:hidden; font-size: 70px;}
+  #maintext span{color: #708090; overflow:hidden; font-size: 50px;}
+  #maintext h1{color: #ff2e63; overflow:hidden; font-size: 50px;}
 
   #secondarytext {font-size: 25px;}
   .infos { padding-left: 20%; }
   .infos span{color: #708090; overflow:hidden; font-size: 30px;}
   .infos h1{color: #ff2e63; overflow:hidden; font-size: 70px;}
+
+
+  #entirescene {  opacity: .3;}
+  #astronaut {  margin-top: 50%;}
 }
 @media (min-width: 1200px) {
   #maintext { padding-left: 20%; }
@@ -98,6 +176,8 @@ body{background-color:#252a34;}
   .infos span{color: #708090; overflow:hidden; font-size: 30px;}
   .infos h1{color: #ff2e63; overflow:hidden; font-size: 70px;}
 
+  #astronaut {  margin-top: 22%; width : 30%;}
+  #entirescene {  opacity: .3;}
 }
  
 #secondarytext {font-family: 'Libre Baskerville', serif; color: #eaeaea; text-align:left; font-weight: lighter;}
